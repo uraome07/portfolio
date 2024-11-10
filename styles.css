@@ -1,0 +1,170 @@
+/* styles.css */
+
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #2d3b2f;
+}
+
+a {
+    text-decoration: none;
+    color: #2d3b2f;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Header/Home */
+header {
+    background-color: #2d3b2f;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+.cta-btn {
+    background-color: #f77f00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background-color: #d46a00;
+}
+
+/* About Me */
+#about {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.skills div {
+    width: 45%;
+}
+
+/* IT Portfolio */
+#it-portfolio {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #f77f00;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f77f00;
+    font-weight: bold;
+}
+
+/* Music Portfolio */
+#music-portfolio {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.song {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.song h3 {
+    color: #f77f00;
+}
+
+.song a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f77f00;
+    font-weight: bold;
+}
+
+/* Contact */
+#contact {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+#contact ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#contact li {
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
