@@ -66,16 +66,22 @@
     <!-- IT Portfolio Section -->
     <section id="it-portfolio">
         <div class="container">
-            <h2>IT Projects</h2>
+            <h2>Simple IT Projects</h2>
             <div class="project">
                 <h3>Task Management App</h3>
                 <p>Web Application and API Integration Project Developed at ICCT.</p>
-                <a href="https://github.com/uraome07/OpenWeatherAPI" target="_blank">View Project</a>
+                <a href="https://weather-2-lang.netlify.app/" target="_blank">Open Weather Checker</a>
             </div>
             <div class="project">
-                <h3>Portfolio Website</h3>
+                <h3>Pedal-App</h3>
+                <p>A booking transpo application using flutter</p>
+                <a href="https://pedal-app-c9ca0.web.app/" target="_blank">Pedal-App Booking</a>
+            </div>
+
+            <div class="project">
+                <h3>Portfolio Website Github Repository</h3>
                 <p>A responsive portfolio website built with HTML, CSS, and JavaScript to showcase my work.</p>
-                <a href="https://github.com/yourusername/portfolio" target="_blank">View Project</a>
+                <a href="https://github.com/uraome07/portfolio" target="_blank">View Project</a>
             </div>
         </div>
     </section>
@@ -144,7 +150,7 @@
         <p>Interested in collaborating or learning more? Feel free to reach out!</p>
         
         <!-- Contact Form -->
-        <form action="send_message.php" method="POST">
+        <form action="https://formspree.io/f/xkgndnpa" method="POST">
             <div class="form-group">
                 <label for="name">Your Name</label>
                 <input type="text" id="name" name="name" required>
@@ -161,18 +167,16 @@
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
             </div>
+            
+            <!-- Add dynamic email subject and sender name -->
+            <input type="hidden" name="_subject" value="Message from [name] about [subject]">
+            <input type="hidden" name="_from" value="[email]">
+            
             <button type="submit" class="cta-btn">Send Message</button>
         </form>
-
-        <p>Or you can reach me directly through these platforms:</p>
-        <ul>
-            <li><a href="mailto:jaymark.catubig15@gmail.com">Email Me</a></li>
-            <li><a href="https://www.linkedin.com/in/jaymark-catubig-b6806933a/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/uraome07" target="_blank">GitHub</a></li>
-            <li><a href="https://www.instagram.com/ur_aome/" target="_blank">Instagram</a></li>
-        </ul>
     </div>
 </section>
+
 
 
 

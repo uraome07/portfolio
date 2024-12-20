@@ -159,11 +159,13 @@ section h2 {
 
 .project {
     background-color: #2a2a42;
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    border-spacing: 10;
 }
 
 .project:hover {
