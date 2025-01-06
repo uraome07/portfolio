@@ -345,6 +345,15 @@ section h2 {
         flex-direction: column; /* Stack videos vertically on smaller screens */
     }
 }
+@media (max-width: 768px) {
+    body {
+        zoom: 90%; /* Adjust to make the desktop version fit better */
+    }
+    nav ul {
+        flex-direction: column;
+    }
+}
+
 /* Contact */
 #contact {
     padding: 80px 0;
@@ -466,8 +475,8 @@ footer {
 }
 
 .profile-pic-center img {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #f77f00; /* Matches CTA button color */
